@@ -1,0 +1,20 @@
+MI DÍA CON VIOLETA – instalador de la app (PWA) v2
+
+CONTENIDO: index.html, sw.js, manifest.webmanifest, icon-192/512/180 y icon-512-maskable (.png)
+
+PASO 1 – PUBLICAR (una sola vez, desde un computador)
+La tablet solo puede instalar la app desde una dirección https. Opciones gratis:
+ a) Netlify Drop: entra a app.netlify.com/drop y arrastra la carpeta descomprimida.
+ b) GitHub Pages: sube estos archivos a un repositorio y activa Pages.
+ c) Cloudflare Pages.
+Te dará un enlace (por ejemplo https://violeta.netlify.app).
+
+PASO 2 – INSTALAR EN LA TABLET
+ - Android (Chrome): abre el enlace -> menú -> "Instalar app" o "Agregar a pantalla principal".
+ - iPad (Safari): abre el enlace -> botón Compartir -> "Agregar a pantalla de inicio".
+Al abrirla por primera vez, escribe el nombre de la amiga asistente. Desde ese momento funciona SIN internet.
+
+DATOS: tareas, estrellas, planes y nombres se guardan en esa tablet. Para probar fechas: index.html?hoy=2026-10-23&hora=14:30
+
+MICRÓFONO: Android/Chrome escucha mejor (necesita permiso e internet). En iPad la voz del asistente funciona; si no escucha, usa la caja de texto.
+ACTUALIZAR: sube de nuevo los archivos al mismo sitio; la app se actualiza sola al abrirla con internet.
